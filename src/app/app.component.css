@@ -83,3 +83,13 @@ a{
     right: 0;
     border-width: 1em 1em 0 0;
    }
+   .mainbody{
+    background:radial-gradient(pink,white);
+    animation: animate 5s linear 1s infinite alternate;
+   }
+   @keyframes animate{
+       0% {background:radial-gradient(#ff8882,white);}
+       30% {background:radial-gradient(#9ede73,white);}
+       60% {background:radial-gradient(#eca3f5,white);}
+       100% {background:radial-gradient(#29bb89,white);}
+   }
